@@ -251,7 +251,8 @@ GEM
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
-    haml (4.0.7)
+    haml (5.0.0)
+      temple (>= 0.8.0)
       tilt
     happymapper (0.4.1)
       libxml-ruby (~> 2.0)
@@ -505,6 +506,7 @@ GEM
       sprockets (>= 2.8, < 4.0)
     statesman (1.3.1)
     stringex (2.5.2)
+    temple (0.8.2)
     therubyracer (0.12.2)
       libv8 (~> 3.16.14.0)
       ref
@@ -596,7 +598,7 @@ DEPENDENCIES
   font-awesome-rails
   geokit-rails
   guard-rspec (~> 4.6.5)
-  haml (~> 4.0.5)
+  haml (~> 5.0.0)
   hiredis
   i18n-js!
   intercom (~> 3.5.10)
